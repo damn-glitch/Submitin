@@ -1,6 +1,5 @@
 import pytesseract
 from PIL import Image
-import os
 import cv2
 import numpy as np
 
@@ -9,7 +8,7 @@ import cv2
 def main():
     # Read the text from the image
     # Provide the path to the image file
-    image_path = 'C:\\Users\\alish\\Downloads\\e91ca08c8097e23d190c9ea788bfbf72.jpg'
+    image_path = 'path_to_your_image.jpg'
 
     # Load the image using OpenCV
     image = cv2.imread(image_path)
